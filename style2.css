@@ -1,0 +1,176 @@
+/*
+estilos generales
+*/
+nav{
+    width: vh;
+}
+body{
+    background-color: #F1D7B6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+imagenes
+*/
+
+.logo{
+    position: absolute;
+    margin-top: -10px;
+}
+
+.tronco{
+        width: 1368px;
+        margin-top: -300px;
+        margin-left: -20px;
+}
+.animall{
+        position: absolute;
+        margin-left: 150px;
+        margin-top: -10px;
+}
+.lupa{
+        position: absolute;
+        margin-left: 908px;
+        margin-top: 68px;
+}
+.carrito{
+    position: absolute;
+    left: 980px;
+    top: 68px;
+}
+        
+/*
+estilos clases
+*/
+
+.infoa{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.letrasa{
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    left: 1015px;
+    top: 20px;
+}
+.letrasb{
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    left: 15px;
+    top: 133px;    
+}
+.l2{
+    width: 160px;
+    font-size: x-large;
+    font-weight: 800;
+}
+.buscador{ 
+    color: #F1D7B6;
+    background-color: #A15F2C;
+    border-radius: 16px; 
+    border: 0;
+    height: 35px;             
+    width: 350px;
+    position: absolute;
+    left: 600px;
+    top: 75px;
+    }
+.l{
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
+    font-style: normal;
+}
+.frase{
+    color: #F0E4B2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 330px;
+    position: absolute;
+    left: 160px;
+    top: 100px;
+}
+.frase2{
+    color: #9D8678;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 330px;
+    position: absolute;
+    left: 330px;
+    top: 100px;
+}
+/*
+cajas de productos
+*/
+.comprar:hover{
+    transform: scale(1.1);
+}
+.producto{
+    float: left;
+    width: 300px;
+    height: 458px;
+    box-shadow: 0 0 7px;
+    margin: 18px;
+    margin-block-end: 50px;
+}
+.juguetep img{
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.infop{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.comprar{
+    border-radius: 15px;
+    background-color: #C1873C;
+    display: flex;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.flecha img{
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.tcomprar img{
+    justify-content: center;
+    width: 160px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 54px;
+    margin-top: -6px;
+    object-fit: cover;
+}
+.jugueteg img{
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
