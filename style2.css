@@ -12,7 +12,88 @@ a {
     text-decoration: none;
     color: white;
 }
+/*
+carrusel
+*/
+.slide {
+    z-index: -1;
+    position: absolute;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 160px;
+    width: 1366px;
+    margin-left: -8px;
+    margin-right: 0px;
+}
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 550px
+}
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 100;
+}
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+.slide-item img {
+    display: block;
+    height: auto;
+    width: 1366px;
+    max-width: 100%;
+}
+.slide-control {
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 100px;
+    height: 0px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+.slide-control.prev {
+    left: 2%;
+}
+.slide-control.next {
+    right: 2%;
+}
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3,
+#slide-4:checked ~ .control-4,
+#slide-5:checked ~ .control-5 {
+    display: block;
+}
 
+#titulo {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+         -1px 0px 2px rgba(255, 255, 255, 0);
+}
 /*
 imagenes
 */
@@ -23,9 +104,11 @@ imagenes
 }
 
 .tronco{
+    position: absolute;
         width: 1368px;
         margin-top: -300px;
         margin-left: -20px;
+        z-index: ;
 }
 .animall{
         position: absolute;
@@ -43,6 +126,28 @@ imagenes
     top: 68px;
 }
         
+.arbusto{
+    position: absolute;
+    z-index: 9;
+    margin-top: -290px;
+    height: 667px;
+    left: -1px;
+}
+.parteabajo{
+    position: absolute;
+    margin-bottom: -5px;
+    margin-top: 800px;
+    width: 1366px;
+    z-index: 8;
+}
+.parteabajo1{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 926px;
+    width: 440px;
+    z-index: 7;
+}
+
 /*
 estilos clases
 */
@@ -75,6 +180,9 @@ estilos clases
     font-size: x-large;
     font-weight: 800;
 }
+.buscador::placeholder {
+    color: #F1D7B6;
+}
 .buscador{ 
     color: #F1D7B6;
     background-color: #A15F2C;
@@ -85,6 +193,7 @@ estilos clases
     position: absolute;
     left: 600px;
     top: 75px;
+    
     }
 .l{
     width: 100px;
@@ -120,6 +229,16 @@ cajas de productos
     box-shadow: 0 0 7px;
     margin: 18px;
     margin-block-end: 50px;
+    margin-top: 800px;
+}
+.producto2{
+    float: left;
+    width: 300px;
+    height: 458px;
+    box-shadow: 0 0 7px;
+    margin: 18px;
+    margin-block-end: 50px;
+    margin-top: px;
 }
 .juguetep img{
     width: 280px;
