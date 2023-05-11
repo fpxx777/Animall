@@ -1,12 +1,17 @@
 /*
 estilos generales
 */
+*{
+    outline: solid black 3px
+}
 nav{
     width: vh;
 }
 body{
     background-color: #F1D7B6;
 }
+
+
 
 a {
     text-decoration: none;
@@ -173,4 +178,65 @@ cajas de productos
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+/* Compras */
+
+.product-card{
+    align-self: self-start;
+    display: flex;
+}
+
+#img-producto {
+    align-self: self-start;
+    object-fit: contain;
+}
+
+#inform {
+    padding: 10px;
+}
+.btn {
+    align-self: center;
+    padding: 10px;
+    border: none;
+    background-color: #C1873C;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+}
+.btn i {
+    margin: 0 10px;
+}
+.btn:hover i {
+    transform: translate(2em);
+    transition: transform .7s;
+}
+.btn:hover {
+    transform: scale(1.1);
+    transition: transform .7s;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #229308;
+    opacity: 1;
+    transition: width 0.5s ease-in-out;
+
+    border-radius: 15px;
+}
+.btn:hover::before {
+    width: 100%;
+}
+
+#carro {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+    
 }
