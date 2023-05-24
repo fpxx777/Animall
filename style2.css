@@ -2,7 +2,7 @@
 estilos generales
 */
 *{
-    outline: solid black 3px
+    outline: solid black 1px
 }
 nav{
     width: vh;
@@ -183,60 +183,58 @@ cajas de productos
 
 .product-card{
     align-self: self-start;
-    display: flex;
 }
 
 #img-producto {
     align-self: self-start;
     object-fit: contain;
 }
-
 #inform {
-    padding: 10px;
-}
-.btn {
-    align-self: center;
-    padding: 10px;
-    border: none;
-    background-color: #C1873C;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 15px;
-    height: 70px;
-    display: flex;
-}
-.btn i {
-    margin: 0 10px;
-}
-.btn:hover i {
-    transform: translate(2em);
-    transition: transform .7s;
-}
-.btn:hover {
-    transform: scale(1.1);
-    transition: transform .7s;
-}
-.btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0%;
-    background-color: #229308;
-    opacity: 1;
-    transition: width 0.5s ease-in-out;
-
-    border-radius: 15px;
-}
-.btn:hover::before {
-    width: 100%;
-}
-
-#carro {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 15px;
     
 }
+
+.buy-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #C1873C;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #229308;
+}
+
+.buy-btn-text {
+    position: relative;
+    z-index: 2;
+}
+
+.buy-btn-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    margin-top: -16px;
+    margin-left: -16px;
+    background-image: url('arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.buy-btn:hover .buy-btn-arrow {
+    transform: scale(1);
+}
+
