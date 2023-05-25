@@ -7,6 +7,7 @@ nav {
 
 body {
     background-color: #F1D7B6;
+    
 }
 
 a {
@@ -94,41 +95,55 @@ carrusel
 /*
 imagenes
 */
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .logo {
     z-index: 2;
     position: absolute;
-    margin-top: -10px;
 }
 
 .tronco {
     z-index: 1;
     position: absolute;
-    width: 102.2%;
-    object-fit: contain;
-    margin-left: -2em;
+    width: 100%;
     margin-top: -290px;
 }           
-
-.animall {
-    z-index: 2;
+.buscador {
+    color: #F1D7B6;
+    background-color: #A15F2C;
+    border-radius: 16px;
+    border: 0;
+    height: 35px;
+    width: 350px;
+    top: 75px;
+}
+.container-logo-otros{
     position: absolute;
-    margin-left: 150px;
-    margin-top: -10px;
+    top: 0;
+    display: flex;
+    z-index: 2;
+}
+.container-logo-otros2{
+    position: absolute;
+    top: 75px;
+    display: flex;
+    z-index: 2;
+    left: 570px;
 }
 
-.lupa {
-    z-index: 2;
-    position: absolute;
-    margin-left: 908px;
-    margin-top: 68px;
+.lupa{
+    width: 30px;
+    height: 30px;
 }
-
-.carrito {
-    z-index: 2;
-    position: absolute;
-    left: 980px;
-    top: 68px;
+.carrito{
+    width: 70px;
+    height: 43px;
+}
+.animall{
+    width: 400px;
+    height: 130px;
 }
 
 .arbusto {
@@ -144,15 +159,15 @@ imagenes
     margin-bottom: -5px;
     margin-top: 800px;
     width: 100%;
-    z-index: -999;
+    z-index: 2;
 }
 
 .parteabajo1 {
     position: absolute;
-    margin-top: 260px;
+    top: 3000px;
     margin-left: 926px;
     width: 440px;
-    z-index: -999;
+    z-index: 2;
 }
 
 /*
@@ -173,6 +188,7 @@ estilos clases
     display: flex;
     position: absolute;
     list-style: none;
+    justify-content: space-between;
     left: 1015px;
     top: 20px;
 }
@@ -199,19 +215,6 @@ estilos clases
     color: #F1D7B6;
 }
 
-.buscador {
-    z-index: 2;
-    color: #F1D7B6;
-    background-color: #A15F2C;
-    border-radius: 16px;
-    border: 0;
-    height: 35px;
-    width: 350px;
-    position: absolute;
-    left: 600px;
-    top: 75px;
-
-}
 
 .l {
     width: 100px;
@@ -300,7 +303,7 @@ button {
     justify-content: center;
     text-align: start;
     vertical-align: top;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .comprar {
@@ -312,7 +315,7 @@ button {
     height: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .tcomprar img {
