@@ -158,6 +158,7 @@ cajas de productos
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    text-align: center  ;
 }
 
 .precio {
@@ -263,6 +264,9 @@ cajas de productos
     transition: 0.5s;
     object-fit: cover;
 }
+.buy-btn:hover .buy-btn-text {
+    opacity: 0;
+}
 
 .buy-btn:hover {
     background-color: #229308;
@@ -276,10 +280,10 @@ cajas de productos
 .buy-btn-arrow {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 43%;
     width: 32px;
     height: 32px;
-    margin-top: -16px;
+    margin-top: -20px;
     margin-left: -16px;
     background-image: url('arrow.svg');
     background-repeat: no-repeat;
@@ -288,6 +292,7 @@ cajas de productos
     transition: transform 0.2s ease-in-out;
     z-index: 1;
 }
+
 
 .buy-btn:hover .buy-btn-arrow {
     transform: scale(1);
