@@ -251,7 +251,7 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 22%;
+    width: 300px;
     box-shadow: 0 0 7px;
     margin: 18px;
     margin-block-end: 50px;
@@ -263,7 +263,7 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 22%;
+    width: 300px;
     box-shadow: 0 0 7px;
     margin: 18px;
     margin-block-end: 50px;
@@ -346,7 +346,7 @@ parte de abajo
 */
 .parteabajo {
     position: absolute;
-    top: 4180px;
+    top: 4270px;
     width: 100%;
     z-index: -5;
     opacity: 0.9;
@@ -368,7 +368,7 @@ share
     width: 300px;
     height: 212px;
     padding-left: 135px;
-    top: 4740px;
+    top: 4850px;
     left: 34px;
     margin-left: -150px;
     margin-top: -106px;
