@@ -57,26 +57,49 @@
                 </p>
                 <button class="buy-btn">
                     <span class="buy-btn-text">Comprar</span>
-                    <span class="buy-btn-arrow"><img src="MenuPrincipalIGM/carrito.png" width="50px" height="40px"></span>
+                    <span class="buy-btn-arrow"><img src="MenuPrincipalIGM/carrito.png" width="50px"
+                            height="40px"></span>
                 </button>
                 <div class="quantity">
                     <button class="decrease1">-</button>
-                    <p>0</p> <!--aqui va el input-->
+                    <p class="cantidad">0</p> <input type="number" min="0" value="0" class="count">
                     <button class="increase1">+</button>
                 </div>
-                <!--aqui pondre js, no pongan nada-->
+                <script>
+                    var count = 0;
+                    var countElement = document.querySelector(".count");
+                    var increaseButton = document.querySelector(".increase1");
+                    var decreaseButton = document.querySelector(".decrease1");
+
+
+                    increaseButton.addEventListener("click", function () {
+                        count++;
+                        countElement.value = count;
+                    });
+
+
+                    decreaseButton.addEventListener("click", function () {
+                        if (count > 0) {
+                            count--;
+                            countElement.value = count;
+                        }
+                    });
+
+
+                </script>
+
             </div>
         </div>
     </main>
     <div class="producto">
         <div class="juguetep">
-            <img src="MenuPrincipalIGM/guau.jpg">
+            <img src="comidasPerros/Junior1.webp">
         </div>
         <div class="infop">
-            <h1>nombre del producto</h1>
+            <h1>Virbac HPM Canino Junior Special Large 12 kg</h1>
         </div>
         <div class="precio">
-            <p>$</p>
+            <p>$69.990</p>
         </div>
         <div class="caja">
             <div class="comprar">
@@ -87,13 +110,13 @@
     </div>
     <div class="producto">
         <div class="juguetep">
-            <img src="MenuPrincipalIGM/guau.jpg">
+            <img src="comidasPerros/Junior2.png">
         </div>
         <div class="infop">
-            <h1>nombre del producto</h1>
+            <h1>Virbac HPM Canino Junior Special Medium 12 kg</h1>
         </div>
         <div class="precio">
-            <p>$</p>
+            <p>$59.990</p>
         </div>
         <div class="caja">
             <div class="comprar">
@@ -104,13 +127,13 @@
     </div>
     <div class="producto">
         <div class="juguetep">
-            <img src="comidasPerros/lata1.webp">
+            <img src="comidasPerros/juniorGF.webp">
         </div>
         <div class="infop">
-            <h1>nombre del producto</h1>
+            <h1>Belcando Junior Grain Free Poultry 12.5Kg</h1>
         </div>
         <div class="precio">
-            <p>$</p>
+            <p>$69.820</p>
         </div>
         <div class="caja">
             <div class="comprar">
@@ -121,13 +144,13 @@
     </div>
     <div class="producto">
         <div class="juguetep">
-            <img src="MenuPrincipalIGM/guau.jpg">
+            <img src="comidasPerros/Chickenpuppy.webp">
         </div>
         <div class="infop">
-            <h1>nombre del producto</h1>
+            <h1>Amity Chicken Puppy SP Low Grain 4kg</h1>
         </div>
         <div class="precio">
-            <p>$</p>
+            <p>$14.620</p>
         </div>
         <div class="caja">
             <div class="comprar">
