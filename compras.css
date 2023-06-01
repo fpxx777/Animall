@@ -27,9 +27,6 @@ header{
     width: 100%;
     display: flex;
 }
-ul, ol {
-    list-style: none;
-}
 /*
 Parte de arriba
 */
@@ -276,6 +273,7 @@ button {
 }
 
 #img-producto {
+    margin-left: 60px;
     align-self: self-start;
     margin-top: 300px;
     width: 420px;
@@ -325,7 +323,7 @@ button {
     letter-spacing: 2px;
     overflow: hidden;
     cursor: pointer;
-    margin-top: 27%;
+    margin-top: 16%;
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
@@ -472,4 +470,27 @@ button {
     width: 60px;
     text-align: center;
     border-color: #F1D7B6;
+}
+.ip {
+    width: 750px;
+    height: 140px;
+}
+.ip2 {
+    padding: 20px 20px 20px 80px;
+    width: 1300px;
+    font-size: 15px;
+}
+.i {
+    padding-left: 80px;
+}
+.descripcion {
+    text-align: center;
+    padding: 30px 40px 20px 0px;
+}
+.id3 {
+    padding-left: 100px;
+    margin: 20px 20px 20px 20px;
+}
+.amity {
+    padding: 20px 20px 20px 80px;
 }
