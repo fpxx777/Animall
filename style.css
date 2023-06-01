@@ -111,7 +111,7 @@ Parte de arriba
     display: flex;
     position: absolute;
     list-style: none;
-    left: 80%;
+    left: 1150px;
     top: 20px;
 }
 
@@ -539,4 +539,36 @@ cambio de pagina
     vertical-align: top;
     margin: 0 0 10px;
     }
+}
+.perroconstructor{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.paginaenconstruccion{
+    font-family: 'acme';
+    font-size: 80px;
+    margin-top: -500px;
+    margin-left: 420px;
+    position: absolute;
+    color: #000000;
+    z-index: 2;
+}
+.paginaenconstruccion2{
+    font-family: 'acme';
+    font-size: 80px;
+    margin-top: -400px;
+    margin-left: 500px;
+    position: absolute;
+    color: #000000;
+    z-index: 2;
+}
+.paginaenconstruccion3{
+    font-family: 'acme';
+    font-size: 80px;
+    margin-top: -300px;
+    margin-left: 260px;
+    position: absolute;
+    color: #000000;
+    z-index: 2;
 }
