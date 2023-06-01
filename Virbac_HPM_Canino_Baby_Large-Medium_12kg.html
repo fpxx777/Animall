@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMALL</title>
+    <link rel="icon" href="MenuPrincipalIGM/a.png">
+    <link rel="stylesheet" type="text/css" href="compras.css">
+</head>
+
+<body>
+    <header>
+        <img class="tronco" src="MenuPrincipalIGM/tronco.png">
+        <div class="container-logo-otros">
+            <img src="MenuPrincipalIGM/logo.png" alt="">
+            <img class="animall" src="MenuPrincipalIGM/animall.png">
+            <h4 class="frase">Excelentes productos,</h4>
+            <h4 class="frase2"> excelentes mascotas</h4>
+        </div>
+        <div class="container-logo-otros2">
+            <input class="buscador">
+            <img class="lupa" src="MenuPrincipalIGM/lupa.png">
+            <img class="carrito" src="MenuPrincipalIGM/carrito.png">
+        </div>
+        <div>
+            <ul class="letrasa">
+                <li class="l"><a href="Changes/cuenta.html">Cuenta</a></li>
+                <li class="l">Contacto</li>
+                <li class="l">Info</li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="letrasb">
+                <li class="l2" href="">Inicio</li>
+                <li class="l2" href="">Perros</li>
+                <li class="l2" href="">Gatos</li>
+                <li class="l2" href="">Ofertas</li>
+                <li class="l2" href="">Favoritos</li>
+            </ul>
+        </nav>
+        </ul>
+    </header>
+    <main>
+        <div class="parent">
+            <div class="div1">
+                <img id="img-producto" src="perros/Virbac_HPM_Canino_Baby_Large-Medium_12kg.png">
+            </div>
+            <div class="div2">
+                <h1 class="Inform">Virbac HPM Canino Baby Large/Medium 12kg</h1>
+                <h3 class="s1">Normal $87.490 </h3>
+                <h2 class="s2"> Oferta Web $69.990 </h2>
+                <p class="ip">El Virbac HPM Canino Baby Large/Medium 12kg es un alimento para cachorros razas medianas (10-25 kg)
+                    hasta los 6 meses y cachorros razas grandes (>25 kg) hasta los 7 meses. Perras de razas grandes y
+                    medianas en Gestación/Lactación. Al principio del crecimiento, y antes de llegar al punto
+                    culminante, los cachorros de razas grandes y medianas tienen unos requisitos intensos para asegurar
+                    un crecimiento saludable del esqueleto, sobre todo en términos de energía, proteínas y minerales.
+                    Tienen un sistema digestivo delicado y un sistema inmunitario inmaduro. Este producto está también
+                    adaptado para perras de razas medianas y grandes en periodo de lactación/gestación. 
+                </p>
+                <button class="buy-btn">
+                    <span class="buy-btn-text">Comprar</span>
+                    <span class="buy-btn-arrow"><img src="MenuPrincipalIGM/carrito.png" width="50px"
+                            height="40px"></span>
+                </button>
+                <div class="quantity">
+                    <button class="decrease1">-</button>
+                    <p class="cantidad">0</p> <input type="number" min="0" value="0" class="count">
+                    <button class="increase1">+</button>
+                </div>
+                <script>
+                    var count = 0;
+                    var countElement = document.querySelector(".count");
+                    var increaseButton = document.querySelector(".increase1");
+                    var decreaseButton = document.querySelector(".decrease1");
+
+
+                    increaseButton.addEventListener("click", function () {
+                        count++;
+                        countElement.value = count;
+                    });
+
+
+                    decreaseButton.addEventListener("click", function () {
+                        if (count > 0) {
+                            count--;
+                            countElement.value = count;
+                        }
+                    });
+
+
+                </script>
+
+            </div>
+        </div>
+    </main>
+    <div>
+        <h2 class="descripcion">Descripcion</h2>
+        <p class="ip2">El Virbac HPM Canino Baby Large/Medium 12kg es un alimento para cachorros razas medianas (10-25
+            kg) hasta los 6 meses y cachorros razas grandes (>25 kg) hasta los 7 meses. Perras de razas grandes y
+            medianas en Gestación/Lactación. Al principio del crecimiento, y antes de llegar al punto culminante, los
+            cachorros de razas grandes y medianas tienen unos requisitos intensos para asegurar un crecimiento saludable
+            del esqueleto, sobre todo en términos de energía, proteínas y minerales. Tienen un sistema digestivo
+            delicado y un sistema inmunitario inmaduro. Este producto está también adaptado para perras de razas
+            medianas y grandes en periodo de lactación/gestación.
+        </p>
+        <p class="ip2">VETERINARY HPM™ es una nueva generación de alimentos para perros diseñada para acercarse al
+            máximo a las necesidades nutricionales de los carnívoros. Se basa en una fórmula baja en hidratos de carbono
+            y rica en proteínas animales. El resultado es una nutrición que se adapta perfectamente a las necesidades de
+            tu perro.</p>
+        <h3 class="i">Composicion:</h3>
+        <p class="ip2">Proteínas de cerdo y de aves deshidratadas, arroz (min. 4 %), grasas animales, guisantes, almidón de patata (min. 4 %), proteínas de cerdo y de aves hidrolizadas, lignocelulosa, cáscaras de haba, sustancias minerales, pulpa de remolacha, semillas de lino, aceite de pescado, levadura de cerveza (fuente de betaglucano), fibra de psyllium (Plantago (L.) spp.), fructo-oligosacáridos, Lactobacillus acidophilus, sulfato de condroitina.</p>
+        <p class="ip2">ADITIVOS: Aditivos nutricionales añadidos por kg, de los cuales: vitamina A 11000 UI, vitamina D3 1100 UI, vitamina E 140 UI, hierro (sulfato de hierro (II) monohidratado) 25 mg, cobre (sulfato de cobre (II) pentahidratado) 15 mg, cinc (sulfato de cinc monohidratado) 120 mg, yodo (yoduro de potasio) 1,1 mg, L-carnitina 330 mg. Ligantes: bentonita 5 g/kg, Antioxidantes. Sin colorantes ni saborizantes artificiales añadidos.</p>
+        <h3 class="i" >Analizis Garantizado:</h3>
+        <p class="ip2">Proteína cruda (min) 32 % (con (min) 86 % de proteína animal), grasa cruda (min) 18,4 %, fibra cruda (max) 5,7 %, humedad (max) 10 %, cenizas (max) 8,5 %, calcio (min) 0,9 %, fósforo (min) 0,7 %, carbohidratos (Extracto Libre de Nitrógeno) (max) 30,5 %, almidón (max) 25,6 %. Energía metabolizable 396 kcal/100g.</p>
+        <h3 class="i">Razion Diaria:</h3>
+        <p class="ip2">CACHORRO DE RAZA MEDIANA (PESO ADULTO 11-25KG)</p>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Junior_Special_Large_12%20kg.html">
+        <div class="img-producto">
+            <img src="perros/Virbac_HPM_Canino_Junior_Special_Large_12 kg.png">
+        </div>
+        <div class="infop">
+            virbac hpm canino junior special large 12 kg
+        </div>
+        <div class="precio">
+            <p class="oferta">OFERTA $69.990</p>
+        </div>
+        <div class="caja"> 
+            <div class="comprar">
+                <button class="tcomprar"> Agregar al carrito</button>
+                <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+            </div>
+        </div>
+        </a>
+    </div>
+    </a>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Junior_Special_Medium_12_kg.html">
+        <div class="img-producto">
+            <img src="perros/Virbac_HPM_Canino_Junior_Special_Medium_12_kg.png">
+        </div>
+        <div class="infop">
+            virbac hpm canino junior special medium 12 kg
+        </div>
+        <div class="precio">
+            <p class="oferta"> OFERTA $59.990</p>
+        </div>
+        <div class="caja">
+            <div class="comprar">
+                <button class="tcomprar">Agregar al carrito</button>
+                <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+            </div>
+        </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Belcando_Junior_Grain_Free_Poultry_12.5Kg.html">
+        <div class="img-producto">
+            <img src="perros/Belcando_Junior_Grain_Free_Poultry_12.5Kg.png">
+        </div>
+        <div class="infop">
+            belcando junior grain free poultry 12.5Kg
+        </div>
+        <div class="precio">
+            <p class="oferta">OFERTA $69.820</p>
+        </div>
+        <div class="caja">
+            <div class="comprar">
+                <button class="tcomprar">Agregar al carrito</button>
+                <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+            </div>
+        </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Amity_Chicken_Puppy_SP_Low_Grain_4kg.html">
+        <div class="img-producto">
+            <img src="perros/Amity_Chicken_Puppy_SP_Low_Grain_4kg.png">
+        </div>
+        <div class="infop">
+            Amity Chicken Puppy SP Low Grain 4kg
+        </div>
+        <div class="precio">
+            <p class="oferta">OFERTA $14.620</p>
+        </div>
+        <div class="caja">
+            <div class="comprar">
+                <button class="tcomprar">Agregar al carrito</button>
+                <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+            </div>
+        </div>
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Acerca de mi empresa</h4>
+                    <p>Somos una empresa dedicada a ofrecer los mejores servicios para sus amadas mascotas</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Información de contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="info"></i> Dirección: calle Candelaria 1545-1603, Ciudad: Santiago</li>
+                        <li><i class="info"></i> Teléfono: +56 9 6634 5409</li>
+                        <li><i class="info"></i> Email: animall.aml7@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos en las redes sociales</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="info2"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/Animall_AML"><i class="info2"></i> Twitter</a></li>
+                        <li><a href="https://www.instagram.com/animall_aml/"><i class="info2"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

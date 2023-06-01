@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMALL</title>
+    <link rel="icon" href="MenuPrincipalIGM/a.png">
+    <link rel="stylesheet" type="text/css" href="compras.css">
+</head>
+
+<body>
+    <header>
+        <img class="tronco" src="MenuPrincipalIGM/tronco.png">
+        <div class="container-logo-otros">
+            <img src="MenuPrincipalIGM/logo.png" alt="">
+            <img class="animall" src="MenuPrincipalIGM/animall.png">
+            <h4 class="frase">Excelentes productos,</h4>
+            <h4 class="frase2"> excelentes mascotas</h4>
+        </div>
+        <div class="container-logo-otros2">
+            <input class="buscador">
+            <img class="lupa" src="MenuPrincipalIGM/lupa.png">
+            <img class="carrito" src="MenuPrincipalIGM/carrito.png">
+        </div>
+        <div>
+            <ul class="letrasa">
+                <li class="l"><a href="Changes/cuenta.html">Cuenta</a></li>
+                <li class="l">Contacto</li>
+                <li class="l">Info</li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="letrasb">
+                <li class="l2" href="">Inicio</li>
+                <li class="l2" href="">Perros</li>
+                <li class="l2" href="">Gatos</li>
+                <li class="l2" href="">Ofertas</li>
+                <li class="l2" href="">Favoritos</li>
+            </ul>
+        </nav>
+        </ul>
+    </header>
+    <main>
+        <div class="parent">
+            <div class="div1">
+                <img id="img-producto" src="perros/Belcando_Junior_Grain_Free_Poultry_12.5Kg.png">
+            </div>
+            <div class="div2">
+                <h1 class="Inform">
+                    Belcando Junior Grain Free Poultry 12.5Kg
+                </h1>
+                <h3 class="s1">Normal $87.280</h3>
+                <h2 class="s2"> Oferta Web $69.820</h2>
+                <p class="ip">Incluso los perros jóvenes pueden desarrollar una intolerancia alimentaria o una alergia
+                    al gluten o a los cereales. Es importante elegir desde primera hora una fórmula sin cereales que
+                    permita un crecimiento sin problemas. En este caso, los cereales se sustituyen por el amaranto, de
+                    gran
+                </p>
+                <button class="buy-btn">
+                    <span class="buy-btn-text">Comprar</span>
+                    <span class="buy-btn-arrow"><img src="MenuPrincipalIGM/carrito.png" width="50px"
+                            height="40px"></span>
+                </button>
+                <div class="quantity">
+                    <button class="decrease1">-</button>
+                    <p class="cantidad">0</p> <input type="number" min="0" value="0" class="count">
+                    <button class="increase1">+</button>
+                </div>
+                <script>
+                    var count = 0;
+                    var countElement = document.querySelector(".count");
+                    var increaseButton = document.querySelector(".increase1");
+                    var decreaseButton = document.querySelector(".decrease1");
+
+
+                    increaseButton.addEventListener("click", function () {
+                        count++;
+                        countElement.value = count;
+                    });
+
+
+                    decreaseButton.addEventListener("click", function () {
+                        if (count > 0) {
+                            count--;
+                            countElement.value = count;
+                        }
+                    });
+
+
+                </script>
+
+            </div>
+        </div>
+    </main>
+    <div>
+        <h2 class="descripcion">Descripcion</h2>
+        <b class="ip2">Belcando Junior Grain Free Poultry 12.5Kg</b>
+        <p class="ip2">Incluso los perros jóvenes pueden desarrollar una intolerancia alimentaria o una alergia al
+            gluten o a los cereales. Es importante elegir desde primera hora una fórmula sin cereales que permita un
+            crecimiento sin problemas. En este caso, los cereales se sustituyen por el amaranto, de gran valor
+            nutricional. Otros ingredientes más importantes de esta fórmula especial con un alto porcentaje de proteína
+            animal procedente de carne de ave fresca y kril muy nutritivo.
+
+        </p>
+        <h3 class="i">Análisis de los componentes del Belcando Junior Grain Free Poultry 12.5Kg:</h3>
+        <p class="ip2">carne de ave fresca (40 %); amaranto (16 %); proteínas de ave deshidratadas con bajo contenido en
+            cenizas (14 %); fécula de patata; harina de guisantes; zooplancton marino molido (krill, 2,5 %); harina de
+            pescado de agua salada (2,5 %); gelatina hidrolizada (2,5 %); levadura de cerveza secada (2,5 %); huevo
+            secado; vainas de algarroba, secas; fosfato di cálcico; grasa de ave; pulpa de remolacha seca, desazucarada;
+            semillas de chía; hígado de ave hidrolizada; aceite de salmón; cloruro de sodio; cloruro de potasio.</p>
+        <p class="ip2"></p>
+        <h3 class="i">Analizis Garantizado</h3>
+        <p class="ip2">Proteínas 26,0 %; contenido de grasa 15,0 %; cenizas brutas 7,4 %; fibras brutas 2,8 %; humedad
+            10,0 %; calcio 1,2 %; fósforo 1,0 %; sodio 0,3 %</p>
+        <h3 class="i">Recomendación de alimentación:</h3>
+        <p class="ip2">Los valores promedio para la alimentación de perros jóvenes se muestran en la tabla. La cantidad
+            correcta de alimentación se determina a través de un control regular del peso del perro. Se recomienda
+            comparar la curva de peso individual del animal con la tabla de crecimiento propia de la raza. Administrar
+            en seco. Asegúrese de que el animal disponga de agua fresca en todo momento.Cantidad de alimento recomendada
+            por animal en g/día</p>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Baby_Large-Medium_12kg.html">
+            <div class="img-producto">
+                <img src="perros/Virbac_HPM_Canino_Baby_Large-Medium_12kg.png">
+            </div>
+            <div class="infop">
+                virbac hpm canino baby large/medium 12kg
+            </div>
+            <div class="precio">
+                <p class="oferta">OFERTA $69.990</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Junior_Special_Large_12%20kg.html">
+            <div class="img-producto">
+                <img src="perros/Virbac_HPM_Canino_Junior_Special_Large_12 kg.png">
+            </div>
+            <div class="infop">
+                virbac hpm canino junior special large 12 kg
+            </div>
+            <div class="precio">
+                <p class="oferta"> OFERTA $59.990</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Junior_Special_Medium_12_kg.html">
+            <div class="img-producto">
+                <img src="perros/Virbac_HPM_Canino_Junior_Special_Medium_12_kg.png">
+            </div>
+            <div class="infop">
+                virbac hpm canino juznior special medium 12 kg
+            </div>
+            <div class="precio">
+                <p class="oferta">Oferta $59.990</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Amity_Chicken_Puppy_SP_Low_Grain_4kg.html">
+            <div class="img-producto">
+                <img src="perros/Amity_Chicken_Puppy_SP_Low_Grain_4kg.png">
+            </div>
+            <div class="infop">
+                Amity Chicken Puppy SP Low Grain 4kg
+            </div>
+            <div class="precio">
+                <p class="oferta">OFERTA $14.620</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Acerca de mi empresa</h4>
+                    <p>Somos una empresa dedicada a ofrecer los mejores servicios para sus amadas mascotas</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Información de contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="info"></i> Dirección: calle Candelaria 1545-1603, Ciudad: Santiago</li>
+                        <li><i class="info"></i> Teléfono: +56 9 6634 5409</li>
+                        <li><i class="info"></i> Email: animall.aml7@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos en las redes sociales</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="info2"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/Animall_AML"><i class="info2"></i> Twitter</a></li>
+                        <li><a href="https://www.instagram.com/animall_aml/"><i class="info2"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
