@@ -542,9 +542,8 @@ Caregorias
     -webkit-text-stroke: 2px #ffffff;
 }
 #g{
-    z-index: 100;
     margin-right: 80px;
-    color: #836856;
+    color: #836856;;
 }
 #g:hover {
     color: #755d4d;
@@ -562,6 +561,7 @@ Caregorias
     margin-top: -100px;
     filter: brightness(500%);
     transition: 1s;
+    margin-right: 80px;
 }
 #p2{
     margin-right: 80px;
@@ -605,10 +605,11 @@ Caregorias
 }
 .flecha4{
     position: absolute;
-    margin-left: 75px;
+    margin-left: -200px;
     margin-top: -100px;
     filter: brightness(500%);
     transition: 1s;
+    
 }
 /*
 cambio de pagina
