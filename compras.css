@@ -488,9 +488,28 @@ button {
     padding: 30px 40px 20px 0px;
 }
 .id3 {
-    padding-left: 100px;
+    padding-left: 80px;
     margin: 20px 20px 20px 20px;
 }
 .amity {
     padding: 20px 20px 20px 80px;
+}
+
+#animall {
+    color: #229308;
+}
+
+.ip4 {
+    padding: 20px 20px 0px 80px;
+    width: 1300px;
+    font-size: 16px;
+}
+.ip5 {
+    height: 140px;
+}
+.ip6 {
+    
+    padding: 20px 20px 20px 0px;
+    font-size: 15px;
+    height: 62px;
 }
