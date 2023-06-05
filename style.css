@@ -1,0 +1,542 @@
+/*
+Estilos Generales
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: vh;
+}
+
+body {
+    background-color: #F1D7B6;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+ul, ol {
+    list-style: none;
+}
+/*
+Parte de arriba
+*/
+.tronco {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: -270px;
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+}
+
+.animall {
+    width: 400px;
+    height: 130px;
+    z-index: 1;
+}
+
+.container-logo-otros {
+    position: absolute;
+    top: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.container-logo-otros2 {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    z-index: 2;
+    left: 570px;
+}
+
+.buscador {
+    color: #F1D7B6;
+    background-color: #A15F2C;
+    border-radius: 16px;
+    border: 0;
+    height: 35px;
+    width: 280px;
+    top: 75px;
+}
+
+.lupa {
+    margin-left: -35px;
+    width: 30px;
+    height: 30px;
+}
+.lupa:hover {
+    filter: hue-rotate(0deg) brightness(80%);
+}
+
+.carrito {
+    width: 70px;
+    height: 43px;
+    margin-left: 20px;
+}
+
+.l {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    font-style: normal;
+}
+
+.l2 {
+    z-index: 2;
+    width: 160px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+
+.letrasa {
+    z-index: 1;
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    left: 80%;
+    top: 20px;
+}
+
+.letrasb {
+    z-index: 2;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 168px;
+}
+.letrasb :hover {
+    color: #aaaaaa;
+}
+
+.frase {
+    z-index: 2;
+    color: #F0E4B2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 2;
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 150px;
+}
+
+.frase2 {
+    z-index: 2;
+    color: #9D8678;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 330px;
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 320px;
+}
+
+/*
+Carrusel
+*/
+.slide {
+    z-index: -2;
+    position: absolute;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 200px;
+    width: 100%;
+}
+
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-open:checked+.slide-item {
+    position: static;
+    opacity: 100;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.slide-control {
+    z-index: 100;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 100px;
+    height: 0px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 100;
+}
+
+.slide-control.prev {
+    left: 2%;
+}
+
+.slide-control.next {
+    right: 2%;
+}
+
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1e6d6;
+}
+
+#slide-1:checked~.control-1,
+#slide-2:checked~.control-2,
+#slide-3:checked~.control-3,
+#slide-4:checked~.control-4,
+#slide-5:checked~.control-5 {
+    display: block;
+}
+.arbusto {
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+    top: 680px;
+}
+/*
+cajas de productos
+*/
+button {
+    background-color: #C1873C;
+    border: 0;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto2:hover {
+    transform: scale(1.05);
+}
+
+.producto {
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+    float: left;
+    width: 300px;
+    height: 530px;
+    box-shadow: 0 0 7px;
+    margin: 18px;
+    margin-block-end: 50px;
+    margin-top: 900px;
+}
+.producto2 {
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+    float: left;
+    width: 300px;
+    height: 530px;
+    box-shadow: 0 0 7px;
+    margin: 18px;
+    margin-block-end: 50px;
+}
+
+.infop {
+    justify-content: center;
+    text-align: center;
+    font: small-caps 100%/200% serif;
+    font-size: x-large;
+    color: #30251e;
+    font-weight: 100;
+    margin: 10px;
+    height: 110px;
+    width: 260px;
+}
+
+.precio {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    vertical-align: top;
+    font: small-caps 100%/200% serif;
+    color: #756155;
+}
+.precio2 {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    vertical-align: top;
+    font: small-caps 100%/200% serif;
+    color: #ce1010;
+}
+
+
+.comprar {
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #C1873C;
+    display: flex;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 1vh;
+    transition: 1s;
+}
+.comprar:hover {
+    filter: hue-rotate(100deg);
+}
+
+@font-face {
+    font-family: 'acme';
+    src: url('Acme-Regular.ttf');
+}
+
+.tcomprar {
+    font-family: 'acme';
+    margin-left: 10px;
+    font-size: large;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.flecha {
+    height: 40px;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 0.8vh;
+    transition: 1s;
+}
+
+.img-producto img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-producto {
+    height: 275px;
+}
+
+.img-producto2 img {
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*
+parte de abajo
+*/
+.parteabajo {
+    position: absolute;
+    top: 3000px;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.9;
+}
+
+.parteabajo1 {
+    position: absolute;
+    top: 2450px;
+    width: 440px;
+    right: 0px;
+    z-index: -5;
+    opacity: 0.8;
+}
+/*
+share
+*/
+.share-buttons {
+    position: absolute;
+    width: 300px;
+    height: 212px;
+    padding-left: 135px;
+    top: 3550px;
+    left: 34px;
+    margin-left: -150px;
+    margin-top: -106px;
+}
+.share-buttons .share-button {
+    float: left;
+    margin-top: 15px;
+}
+.share-buttons .share-button:first-child {
+    margin-top: 0;
+}
+.share-buttons .share-button:after {
+    clear: both;
+    display: table;
+}
+.share-button {
+    display: block;
+    position: relative;
+    height: 30px;
+}
+.share-button:hover {
+    cursor: pointer;
+}
+.share-button:hover .share-button-primary {
+    box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+    background: #f1d7b6;
+}
+.share-button:hover .share-button-icon{
+    filter: hue-rotate(0deg) brightness(500%);
+}
+.share-button:hover .share-button-secondary-content {
+    transform: translate3d(0, 0, 0);
+}
+.share-button-primary {
+    position: absolute;
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+}
+.share-button-icon {
+    display: block;
+    color: #fffdfd;
+    position: absolute;
+    width: 25px;
+    margin-left: 2px;
+    font-size: 16px;
+    margin-top: 2px;
+}
+.share-button-secondary {
+    overflow: hidden;
+    margin-left: 15px;
+    height: 30px;
+}
+.share-button-secondary-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.75em;
+    background: #fff;
+    display: block;
+    height: 30px;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 18px;
+    line-height: 30px;
+    color: #8d7658;
+    border-radius: 0 15px 15px 0;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 175ms ease;
+}
+/*
+cambio de pagina
+*/
+.pagination-outer {
+    text-align: center;
+}
+.pagination {
+    margin-top: 100px;
+    background: linear-gradient(#c2ae95, #c2ae95);
+    font-family: "Libre Franklin", sans-serif;  
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-flex;
+    position: relative;
+}
+.pagination li a.page-link {
+    color: #f1ebe3;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    height: 35px;
+    width: 30px;
+    padding: 0;
+    margin: 0 20px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+.pagination li a.page-link:hover {
+    color: #ffffff;
+}
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:hover,
+.pagination li.active a.page-link {
+    color: #fff0dd;
+    background: transparent;
+    font-weight: 700;
+    border: none;
+}
+.pagination li:first-child a.page-link,
+.pagination li:last-child a.page-link {
+    font-size: 15px;
+    line-height: 37px;
+    width: auto;
+    padding: 0 8px;
+    border-radius: 0;
+}
+.pagination li a.page-link:before {
+    content: "";
+    background: #e4d7c7;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transform: scale(0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.pagination li a.page-link:hover:before {
+    transform: scale(1);
+}
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:hover:before,
+.pagination li.active a.page-link:before {
+    transform: scale(0);
+}
+@media only screen and (max-width: 480px) {
+.pagination {
+    font-size: 0;
+    display: inline-block;
+    }
+    .pagination li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 10px;
+    }
+}

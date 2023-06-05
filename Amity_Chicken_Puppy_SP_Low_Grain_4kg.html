@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMALL</title>
+    <link rel="icon" href="MenuPrincipalIGM/a.png">
+    <link rel="stylesheet" type="text/css" href="compras.css">
+</head>
+
+<body>
+    <header>
+        <img class="tronco" src="MenuPrincipalIGM/tronco.png">
+        <div class="container-logo-otros">
+            <img src="MenuPrincipalIGM/logo.png" alt="">
+            <img class="animall" src="MenuPrincipalIGM/animall.png">
+            <h4 class="frase">Excelentes productos,</h4>
+            <h4 class="frase2"> excelentes mascotas</h4>
+        </div>
+        <div class="container-logo-otros2">
+            <input class="buscador">
+            <img class="lupa" src="MenuPrincipalIGM/lupa.png">
+            <img class="carrito" src="MenuPrincipalIGM/carrito.png">
+        </div>
+        <div>
+            <ul class="letrasa">
+                <li class="l"><a href="Changes/cuenta.html">Cuenta</a></li>
+                <li class="l">Contacto</li>
+                <li class="l">Info</li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="letrasb">
+                <li class="l2" href="">Inicio</li>
+                <li class="l2" href="">Perros</li>
+                <li class="l2" href="">Gatos</li>
+                <li class="l2" href="">Ofertas</li>
+                <li class="l2" href="">Favoritos</li>
+            </ul>
+        </nav>
+        </ul>
+    </header>
+    <main>
+        <div class="parent">
+            <div class="div1">
+                <img id="img-producto" src="perros/Amity_Chicken_Puppy_SP_Low_Grain_4kg.png">
+            </div>
+            <div class="div2">
+                <h1 class="Inform">
+                    Amity Chicken Puppy SP Low Grain 4kg
+                </h1>
+                <h3 class="s1">Normal $18.280</h3>
+                <h2 class="s2"> Oferta Web $14.620</h2>
+                <p class="ip">Amity Chicken Puppy SP Low Grain es un alimento para cachorros de todas las razas y
+                    tamaños formulado con pollo, arroz integral y verduras. Alimento hipoalergénico y Libre de GMO.
+                </p>
+                <button class="buy-btn">
+                    <span class="buy-btn-text">Comprar</span>
+                    <span class="buy-btn-arrow"><img src="MenuPrincipalIGM/carrito.png" width="50px"
+                            height="40px"></span>
+                </button>
+                <div class="quantity">
+                    <button class="decrease1">-</button>
+                    <p class="cantidad">0</p> <input type="number" min="0" value="0" class="count">
+                    <button class="increase1">+</button>
+                </div>
+                <script>
+                    var count = 0;
+                    var countElement = document.querySelector(".count");
+                    var increaseButton = document.querySelector(".increase1");
+                    var decreaseButton = document.querySelector(".decrease1");
+
+
+                    increaseButton.addEventListener("click", function () {
+                        count++;
+                        countElement.value = count;
+                    });
+
+
+                    decreaseButton.addEventListener("click", function () {
+                        if (count > 0) {
+                            count--;
+                            countElement.value = count;
+                        }
+                    });
+
+
+                </script>
+
+            </div>
+        </div>
+    </main>
+    <div>
+        <h2 class="descripcion">Descripcion</h2>
+        <p class="ip2">Amity Chicken Puppy SP Low Grain es un alimento para cachorros de todas las razas y tamaños
+            formulado con pollo, arroz integral y verduras. Alimento hipoalergénico y Libre de GMO.</p>
+        <h3 class="i">Beneficios del Amity Chicken Puppy SP Low Grain</h3>
+        <ul class="id3">
+            <li>Cuidado articular: Glucosamina + Clorhidrato</li>
+            <li>Confort intestinal: FOS + MOS + Fibras naturales + Algas.</li>
+            <li>Optimización energética: L-Carnitina.</li>
+            <li>Mejora la capacidad de aprendizaje: Ω3 (EPA + DHA).</li>
+            <li>Confort cardiovascular: Ω3 (EPA + DHA) + Taurina.</li>
+            <li>Apoyo inmunológico: MOS + β-glucanos.</li>
+            <li>Cuida la piel y el cabello: Ω6 + Ω3.</li>
+        </ul>
+        <h3 class="i">Composición</h3>
+        <ul class="id3">
+            <li>Carne deshidratada 39% (pollo 14%).</li>
+            <li>arroz 24% (arroz integral 14%).</li>
+            <li>grasa de ave 13%.</li>
+            <li>guisantes 10%</li>
+            <li>harina de algarroba 2%.</li>
+            <li>proteína animal hidrolizada.</li>
+            <li>pulpa de remolacha.</li>
+            <li>aceite de salmón (Fuente de ac. grasos Omega-3).</li>
+            <li>I hidrolizado de crustáceos (Fuente de Glucosamina).</li>
+            <li>hidrolizado de cartílago (Fuente de Condroitina).</li>
+            <li>aceites esenciales (orégano, canela, clavo, tomillo, romero, hierbabuena, té verde).</li>
+            <li>yucca.</li>
+        </ul>
+        <h3 class="i">Componentes</h3>
+        <ul class="id3">
+            <li>Proteína bruta 30,00 %.</li>
+            <li>Grasa bruta 18,00 %.</li>
+            <li>Fibra bruta 2,30 %.</li>
+            <li>Ceniza bruta 7,60 %.</li>
+            <li>Calcio 1,60 %.</li>
+            <li>Fósforo 1,00 %.</li>
+            <li>Humedad 9,00 %.</li>
+            <li>Glucosamina clorhidrato 380 mg/kg.</li>
+            <li>Condroitín sulfato 240 mg/kg.</li>
+        </ul>
+        <h3 class="i">Aditivos Nutricionales</h3>
+        <ul class="id3">
+            <li>Vitamina A, D,  E  y  C</li>
+            <li>Taurina 600 mg/Kg.,</li>
+            <li>Hierro (Sulfato de hierro II monohidratado) 90 mg/Kg.,</li>
+            <li>Cobre (Sulfato de cobre II pentahidratado) 12 mg/Kg.,</li>
+            <li>Manganeso (Sulfato manganoso monohidratado) 30 mg/Kg.,</li>
+            <li>Zinc (Sulfato de zinc monohidratado) 130 mg/Kg., Iodo (Yoduro de potasio) 2,4 mg/Kg.,</li>
+            <li>Selenio (Selenito de sodio) 0,12 mg/Kg.</li>
+        </ul>
+        <h3 class="i">Modo de dar a su cachorro</h3>
+        <p class="ip2">El producto debe ser administrado en forma seca. Deje siempre agua fresca y limpia a disposición
+            de su perro. La cantidad diaria de este alimento que necesita su perro depende de diversos factores como el
+            peso, la actividad diaria, edad, ambiente natural… De manera orientativa, para perros adultos que realizan
+            una actividad normal, dependiendo de su peso corporal, se recomienda aportar las siguientes cantidades
+            diarias.</p>
+        <h3 class="i">Cantidades Recomendadas a dar</h3>
+        <div class="amity">
+        <img src="MenuPrincipalIGM/AMITY_LOW-GRAIN-CHICKEN-PUPPY-tab.jpg" alt="">
+        </div>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Baby_Large-Medium_12kg.html">
+            <div class="img-producto">
+                <img src="perros/Virbac_HPM_Canino_Baby_Large-Medium_12kg.png">
+            </div>
+            <div class="infop">
+                virbac hpm canino baby large/medium 12kg
+            </div>
+            <div class="precio">
+                <p class="oferta">OFERTA $69.990</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Junior_Special_Large_12%20kg.html">
+            <div class="img-producto">
+                <img src="perros/Virbac_HPM_Canino_Junior_Special_Large_12 kg.png">
+            </div>
+            <div class="infop">
+                virbac hpm canino junior special large 12 kg
+            </div>
+            <div class="precio">
+                <p class="oferta"> OFERTA $59.990</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Virbac_HPM_Canino_Junior_Special_Medium_12_kg.html">
+            <div class="img-producto">
+                <img src="perros/Virbac_HPM_Canino_Junior_Special_Medium_12_kg.png">
+            </div>
+            <div class="infop">
+                virbac hpm canino juznior special medium 12 kg
+            </div>
+            <div class="precio">
+                <p class="oferta">OFERTA $69.820</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="producto">
+        <a href="http://127.0.0.1:5500/Belcando_Junior_Grain_Free_Poultry_12.5Kg.html">
+            <div class="img-producto">
+                <img src="perros/Belcando_Junior_Grain_Free_Poultry_12.5Kg.png">
+            </div>
+            <div class="infop">
+                Belcando Junior Grain Free Poultry 12.5Kg
+            </div>
+            <div class="precio">
+                <p class="oferta">Oferta $69.820</p>
+            </div>
+            <div class="caja">
+                <div class="comprar">
+                    <button class="tcomprar">Agregar al carrito</button>
+                    <img class="flecha" src="MenuPrincipalIGM/flecha.png">
+                </div>
+            </div>
+        </a>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Acerca de mi empresa</h4>
+                    <p>Somos una empresa dedicada a ofrecer los mejores servicios para sus amadas mascotas</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Información de contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="info"></i> Dirección: calle Candelaria 1545-1603, Ciudad: Santiago</li>
+                        <li><i class="info"></i> Teléfono: +56 9 6634 5409</li>
+                        <li><i class="info"></i> Email: animall.aml7@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos en las redes sociales</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="info2"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/Animall_AML"><i class="info2"></i> Twitter</a></li>
+                        <li><a href="https://www.instagram.com/animall_aml/"><i class="info2"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
