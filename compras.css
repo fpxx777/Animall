@@ -500,6 +500,7 @@ button {
 }
 
 .ip4 {
+    
     padding: 20px 20px 0px 80px;
     width: 1300px;
     font-size: 16px;
@@ -512,4 +513,67 @@ button {
     padding: 20px 20px 20px 0px;
     font-size: 15px;
     height: 62px;
+}
+.producto1 {
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+    float: left;
+    width: 300px;
+    height: 530px;
+    box-shadow: 0 0 7px;
+    margin: 18px;
+    margin-block-end: 50px;
+    margin-top:210px;
+}
+
+.ip7 {
+    padding: 20px 20px 0px 80px;
+    width: 1300px;
+    font-size: 16px;
+}
+
+.ip8 {
+    position: absolute;
+}
+
+.footer1 {
+    position: absolute;
+    background-color: #604a33;
+    color: white;
+    margin-top: 56%;
+    margin-left: 0%;
+    display: flex;
+
+}
+
+.footer1 h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer1 p {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.footer1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer1 ul li {
+    margin-bottom: 20px;
+    margin-left: 370px;
+}
+
+.footer1 ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer1 ul li a:hover {
+    color: #fff;
 }
