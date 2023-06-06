@@ -205,15 +205,17 @@ button {
     justify-content: center;
     text-align: start;
     vertical-align: top;
-    font: small-caps 100%/200% serif;
+    font-family: 'acme';
+    font-size: x-large;
     color: #756155;
 }
 .precio2 {
+    font-size: x-large;
     display: flex;
     justify-content: center;
     text-align: start;
     vertical-align: top;
-    font: small-caps 100%/200% serif;
+    font-family: 'acme';
     color: #ce1010;
 }
 
