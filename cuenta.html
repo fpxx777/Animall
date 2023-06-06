@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #F1D7B6;
+    }
+
+    h2 {
+        color: #F1D7B6;
+    }
+
+    label {
+        color: #F1D7B6;
+    }
+
+    .container {
+        margin-left: 40%;
+        margin-top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-form {
+        background-color: #977c5b;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-control {
+        margin-bottom: 20px;
+    }
+
+    .form-control label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-control input[type="text"],
+    .form-control input[type="password"],
+    .form-control input[type="checkbox"] {
+        border: none;
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .form-control input[type="text"]:focus,
+    .form-control input[type="password"]:focus {
+        outline: none;
+        background-color: #e6e6e6;
+    }
+
+    .form-control input[type="checkbox"] {
+        margin-right: 10px;
+        width: auto;
+    }
+
+    #label-remember{
+        display: inline;
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #3e8e41;
+    }
+
+    .image-container {
+        flex: 1;
+        height: 100%;
+        background-image: url("cat-and-dog.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .image-container img {
+        display: none;
+    }
+</style>
+<html>
+
+<head>
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <img class="tronco" src="MenuPrincipalIGM/tronco.png">
+    <div class="container-logo-otros">
+        <img src="MenuPrincipalIGM/logo.png" alt="">
+        <img class="animall" src="MenuPrincipalIGM/animall.png">
+        <h4 class="frase">Excelentes productos,</h4>
+        <h4 class="frase2"> excelentes mascotas</h4>
+    </div>
+    <div class="container-logo-otros2">
+        <input class="buscador">
+        <img class="lupa" src="MenuPrincipalIGM/lupa.png">
+        <img class="carrito" src="MenuPrincipalIGM/carrito.png">
+    </div>
+    <div>
+        <ul class="letrasa">
+            <li class="l"><a href="favoritos.html">Cuenta</a></li>
+            <li class="l">Contacto</li>
+        </ul>
+    </div>
+    <nav>
+        <ul class="letrasb">
+            <li class="l2"><a href="index.html">Inicio</a></li>
+            <li class="l2"><a href="perros.html">Perros</a></li>
+            <li class="l2"><a href="gatos.html">Gatos</a></li>
+            <li class="l2"><a href="ofertas.html">Ofertas</li>
+            <li class="l2"><a href="favoritos.html">Favoritos</a></li>
+        </ul>
+    </nav>
+    </ul>
+</header>
+
+<body>
+    <div class="container">
+        <form class="login-form">
+            <h2>Iniciar sesión</h2>
+            <div class="form-control">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Introduce tu nombre de usuario">
+            </div>
+            <div class="form-control">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Introduce tu contraseña">
+            </div>
+            <div class="form-control">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                <label id="label-remember" for="remember-me">Recuérdame en el dispositivo</label>
+            </div>
+            <button onclick="location.href='favoritos.html'" type="button" class="btn">Iniciar sesión</button>
+        </form>
+        <div class="image-container">
+            <img src="cat-and-dog.jpg" alt="Imagen de un gato y un perro">
+        </div>
+    </div>
+</body>
+
+</html>
