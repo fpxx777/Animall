@@ -16,7 +16,8 @@ body {
     margin-top: -10px;
 }
 
-.tronco{
+.tronco {
+    scale: 100%;
     width: 1368px;
     margin-top: -300px;
     margin-left: -20px;
@@ -142,121 +143,151 @@ body {
 }
 
 .formato {
-    background-color: white;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 950px;
     left: 500px;
     width: 100px;
 }
+
 .formato2 {
     position: absolute;
     top: 970px;
     left: 500px;
     width: 400px;
 }
+
 .rama_1 {
     position: absolute;
     width: 50%;
     margin-top: 110px;
     margin-left: 674.8px;
 }
+
 .rama_2 {
     position: absolute;
     width: 50%;
     margin-top: 110px;
     margin-left: -40px;
 }
+
 .rama_3 {
     position: absolute;
     width: 50%;
     margin-top: 110px;
     margin-left: 400px;
 }
+
 .rama_4 {
     position: absolute;
     width: 50%;
     margin-top: 110px;
     margin-left: 240px;
 }
+
 .rama_5 {
     position: absolute;
     width: 50%;
     margin-top: 110px;
     margin-left: -100px;
 }
+
 .rama_6 {
     position: absolute;
     width: 50%;
     margin-top: 110px;
     margin-left: 675px;
 }
+
 .gatito {
     position: absolute;
     width: 800px;
     top: 250px;
     left: 250px;
 }
-.back{
+
+.back {
     width: 1365px;
     height: 600px;
     margin-top: -400px;
     margin-left: -7px;
 }
-.numero{
-    background-color: white;
+
+.numero {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 1000px;
     left: 500px;
     width: 400px;
 }
-.numero2{
+
+.numero2 {
     position: absolute;
     top: 1025px;
     left: 500px;
     width: 400px;
 }
-.email{
-    background-color: white;
+
+.email {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 1057px;
     left: 500px;
     width: 400px;
 }
-.email2{
+
+.email2 {
     position: absolute;
     top: 1085px;
     left: 500px;
     width: 400px;
 }
-.Mensaje{
-    background-color: white;
+
+.Mensaje {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 1118px;
     left: 500px;
     width: 400px;
 }
-.Mensaje2{
+
+.Mensaje2 {
     position: absolute;
     top: 1150px;
     left: 500px;
     width: 400px;
 }
-.Enviar{
+
+.Enviar {
     position: absolute;
     top: 1320px;
     left: 500px;
     width: 400px;
 }
-.back2{
-    position:absolute;
+
+.back2 {
+    position: absolute;
     width: 1365px;
     height: 700px;
     margin-top: 200px;
     margin-left: -7px;
 }
-.twitter_logo{
+
+.twitter_logo {
     position: absolute;
-    width: 800px;
-    top: 250px;
-    left: 250px;
+    width: 100px;
+    top: 1125px;
+    left: 0px;
+}
+.c{
+    position: absolute;
+    width: 100px;
+    top: 1250px;
+    left: 0px;
+}
+.gmail_logo{
+    position: absolute;
+    width: 150px;
+    top: 1000px;
+    left: -35px;
 }
