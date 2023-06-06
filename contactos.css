@@ -278,33 +278,38 @@ body {
     top: 1125px;
     left: 0px;
 }
-.c{
+
+.c {
     position: absolute;
     width: 100px;
     top: 1250px;
     left: 0px;
 }
-.gmail_logo{
+
+.gmail_logo {
     position: absolute;
     width: 150px;
     top: 1000px;
     left: -35px;
 }
-.bruh{
+
+.bruh {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 1000px;
     left: 90px;
     width: 100px;
 }
-.brah{
+
+.brah {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 1120px;
     left: 90px;
     width: 100px;
 }
-.broh{
+
+.broh {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
     top: 1270px;
