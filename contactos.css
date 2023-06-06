@@ -17,8 +17,7 @@ body {
 }
 
 .tronco {
-    scale: 100%;
-    width: 1368px;
+    width: 100%;
     margin-top: -300px;
     margin-left: -20px;
 }
@@ -207,7 +206,7 @@ body {
 }
 
 .back {
-    width: 1365px;
+    width: 100%;
     height: 600px;
     margin-top: -400px;
     margin-left: -7px;
@@ -267,10 +266,10 @@ body {
 
 .back2 {
     position: absolute;
-    width: 1365px;
+    width: 100%;
     height: 700px;
-    margin-top: 200px;
-    margin-left: -7px;
+    margin-top: 400px;
+    margin-left: -1351px;
 }
 
 .twitter_logo {
@@ -290,4 +289,25 @@ body {
     width: 150px;
     top: 1000px;
     left: -35px;
+}
+.bruh{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    position: absolute;
+    top: 1000px;
+    left: 90px;
+    width: 100px;
+}
+.brah{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    position: absolute;
+    top: 1120px;
+    left: 90px;
+    width: 100px;
+}
+.broh{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    position: absolute;
+    top: 1270px;
+    left: 100px;
+    width: 100px;
 }
