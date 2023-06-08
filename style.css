@@ -70,11 +70,11 @@ Parte de arriba
 .buscador {
     color: #F1D7B6;
     background-color: #A15F2C;
-    border-radius: 16px;
+    border-radius: 0.9vw;
     border: 0;
     height: 1.8vw;
     width: 20vw;
-    top: 75px;
+    font-size: 0.8vw;
 }
 
 .lupa {
@@ -115,6 +115,10 @@ Parte de arriba
     margin-left: 90%;
     margin-top: 3%;
 }
+::placeholder {
+    color: #F1D7B6;
+    opacity: 1; 
+}
 
 .letrasb {
     z-index: 2;
@@ -123,7 +127,7 @@ Parte de arriba
     display: flex;
     position: absolute;
     list-style: none;
-    margin-top: 9.5%;
+    margin-top: 9.4%;
     width: 30%;
 }
 .letrasb :hover {
@@ -136,7 +140,7 @@ Parte de arriba
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     width: 10vw;
-    margin-top: 65%;
+    margin-top: 70%;
     margin-left: 8.7vw;
     font-size: 0.9vw;
 }
@@ -147,7 +151,7 @@ Parte de arriba
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 9vw;
     position: absolute;
-    margin-top: 65%;
+    margin-top: 70%;
     margin-left: 18.3vw;
     font-size: 0.9vw;
 }
