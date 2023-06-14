@@ -4,18 +4,19 @@ a {
 }
 
 nav {
-    width: 100%
+    width: vh
 }
 
 
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 background-image: url(https://cdn3.vectorstock.com/i/1000x1000/26/87/natural-green-background-with-selective-focus-vector-1982687.jpg);
 background-repeat: no-repeat;
 background-size:  cover;
 background-position:right;
-height: 300vh;
+height: 175vw;
 
 }
 
