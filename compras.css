@@ -259,8 +259,9 @@ button {
 }
 /* Compras */
 .oferta {
-    color: #ff0000;
-    
+    color: #556b2f;
+    font-size: x-large;
+    font-family: 'acme';
 }
 
 .s1 {
@@ -275,12 +276,12 @@ button {
 #img-producto {
     margin-left: 60px;
     align-self: self-start;
-    margin-top: 300px;
-    width: 420px;
-    height: 420px;
+    margin-top: 22vw;
+    width: 30vw;
+    height: 31vw;
     transition: all;
     object-fit: cover;
-    box-shadow: 5px 5px 7px rgb(0, 0, 0, 0.5);
+    box-shadow: 1vw 1vw 1vw rgb(0, 0, 0, 0.5);
 }
 
 #img-producto:hover{
@@ -290,7 +291,7 @@ button {
 .parent {
     display: grid;
     grid-template-columns: auto 1fr 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 2vw;
     margin-top: 0%;
 }
 
@@ -300,8 +301,8 @@ button {
 }
 
 .div2 {
-    margin-top: 300px;
-    width: 700px;
+    margin-top: 22vw;
+    width: 40vw;
     grid-area: 2 / 3 / 3 / 4;
 }
 
@@ -312,18 +313,18 @@ button {
 .buy-btn {
     position: relative;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1vw 1vw;
     color: #fff;
     background-color: #C1873C;
     border: none;
-    border-radius: 15px;
-    font-size: 16px;
+    border-radius: 3vw;
+    font-size: 1vw;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.1vw;
     overflow: hidden;
     cursor: pointer;
-    margin-top: 16%;
+    margin-top: 14%;
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
@@ -343,12 +344,12 @@ button {
 
 .buy-btn-arrow {
     position: absolute;
-    top: 50%;
-    left: 43%;
-    width: 32px;
-    height: 32px;
-    margin-top: -20px;
-    margin-left: -16px;
+    top: 65%;
+    left: 50%;
+    width: 2vw;
+    height: 2vw;
+    margin-top: -2vw;
+    margin-left: -2vw;
     background-image: url('arrow.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -374,7 +375,7 @@ button {
 
 .footer h4 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
 }
 
 .footer p {
@@ -389,8 +390,8 @@ button {
 }
 
 .footer ul li {
-    margin-bottom: 20px;
-    margin-left: 370px;
+    margin-bottom: 1vw;
+    margin-left: 27.3vw;
 }
 
 .footer ul li a {
@@ -405,12 +406,12 @@ button {
 
 .col-md-4 {
     text-align: center;
-    margin-left: 10px;
+    margin-left: 1vw;
 }
 
 .row {
     display: flex;
-    margin: 20px;
+    margin: 1vw;
 }
 
 .list-unstyled {
@@ -418,11 +419,11 @@ button {
 }
 
 .info {
-    margin-left: -350px;
+    margin-left: -25vw;
 }
 
 .info2 {
-    margin-left: -220px;
+    margin-left: -16vw;
 }
 
 
@@ -436,63 +437,63 @@ button {
     background-color: #C1873C;
     color: white;
     border: none;
-    padding: 10px 13px;
+    padding: 0.9vw 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1vw;
+    margin: 0vw 0.1vw;
     cursor: pointer;
-    border-start-start-radius: 15px;
-    border-end-start-radius:  15px;
+    border-start-start-radius: 1vw;
+    border-end-start-radius:  1vw;
 }
 
 .increase1 {
     background-color: #C1873C;
     color: white;
     border: none;
-    padding: 10px 13px;
+    padding: 0.9vw 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1vw;
+    margin: 0.7vw 0.1vw;
     cursor: pointer;
-    border-top-right-radius: 15px;
-    border-end-end-radius: 15px;
+    border-top-right-radius: 1vw;
+    border-end-end-radius: 1vw;
 }
 
 .count {
-    margin: 0px -12px 0px -12px;
+    margin: 0vw -0.4vw 0vw -1vw;
     background-color: #ecdfcd;
     display: inline-block;
-    padding: 10px;
-    width: 60px;
+    padding: 0.7vw;
+    width: 4vw;
     text-align: center;
     border-color: #F1D7B6;
 }
 .ip {
-    width: 750px;
-    height: 140px;
+    width: 54vw;
+    height: 10vw;
 }
 .ip2 {
-    padding: 20px 20px 20px 80px;
-    width: 1300px;
-    font-size: 15px;
+    padding: 1vw 2vw 2vw 6vw;
+    width: 95vw;
+    font-size: 1vw;
 }
 .i {
-    padding-left: 80px;
+    padding-left: 6vw;
 }
 .descripcion {
     text-align: center;
-    padding: 30px 40px 20px 0px;
+    padding: 1vw 2vw 1vw 0vw;
 }
 .id3 {
-    padding-left: 80px;
-    margin: 20px 20px 20px 20px;
+    padding-left: 2vw;
+    margin: 1vw 1vw 1vw 1vw;
 }
 .amity {
-    padding: 20px 20px 20px 80px;
+    padding: 1vw 1vw 1vw 3vw;
 }
 
 #animall {
@@ -500,18 +501,17 @@ button {
 }
 
 .ip4 {
-    
-    padding: 20px 20px 0px 80px;
-    width: 1300px;
-    font-size: 16px;
+    padding: 1vw 2vw 0vw 6vw;
+    width: 90vw;
+    font-size: 1.20vw;
 }
 .ip5 {
-    height: 140px;
+    height: 4vw;
 }
 .ip6 {
     
-    padding: 20px 20px 20px 0px;
-    font-size: 15px;
+    padding: 1vw 1vw 1vw 0vw;
+    font-size: 0.8vw;
     height: 62px;
 }
 .producto1 {
@@ -519,18 +519,18 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 300px;
-    height: 530px;
-    box-shadow: 0 0 7px;
-    margin: 18px;
-    margin-block-end: 50px;
-    margin-top:210px;
+    width: 22vw;
+    height: 38vw;
+    box-shadow: 0 0 1vw;
+    margin: 1vw;
+    margin-block-end: 20vw;
+    margin-top:30vw;
 }
 
 .ip7 {
-    padding: 20px 20px 0px 80px;
-    width: 1300px;
-    font-size: 16px;
+    padding: 2vw 2vw 0vw 8vw;
+    width: 90vw;
+    font-size: 1vw;
 }
 
 .ip8 {
@@ -541,15 +541,14 @@ button {
     position: absolute;
     background-color: #604a33;
     color: white;
-    margin-top: 56%;
-    margin-left: 0%;
+    margin-top: 70vw;
     display: flex;
 
 }
 
 .footer1 h4 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 4vw;
 }
 
 .footer1 p {
@@ -564,8 +563,8 @@ button {
 }
 
 .footer1 ul li {
-    margin-bottom: 20px;
-    margin-left: 370px;
+    margin-bottom: 2vw;
+    margin-left: 37vw;
 }
 
 .footer1 ul li a {
