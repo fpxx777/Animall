@@ -93,7 +93,7 @@ ul, ol {
 .l {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right: 50%;
-    font-size: 0.8vw;
+    font-size: 1.1vw;
 }
 
 .l2 {
@@ -109,7 +109,7 @@ ul, ol {
     display: flex;
     position: absolute;
     list-style: none;
-    margin-left: 90%;
+    margin-left: 85%;
     margin-top: 3%;
 }
 ::placeholder {
@@ -416,7 +416,7 @@ Caregorias
 .degradao3{
     position: absolute;
     margin-top: 20.5%;
-    width: 99.1vw;
+    width: 100vw;
     height: 8vw;
     z-index: -2;
 }
@@ -627,73 +627,184 @@ OFERTAS
     position: absolute;
     margin-top: 40vw;
     color: #9a2e2e;
-    -webkit-text-stroke: 2px #fef6e9;
+    -webkit-text-stroke: 0.15vw #fef6e9;
     z-index: 1;
 }
-.productos2i{
+.productosoi{
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-left: 5%;
-    margin-right: 1%;
-    margin-top: 36%;
+    margin-left: 3%;
+    margin-top: 10%;
     margin-bottom: 1%;
+    margin-top: 77%;
 }
-.productos2d{
+.productosod{
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-left: 1%;
-    margin-top: 36%;
+    margin-top: 77%;
+    margin-left: 2%;
+    margin-right: 3%;   
     margin-bottom: 1%;
 }
-.productos2 {
+.productoso {
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-top: 76%;
+    margin-top: 77%;
     margin-bottom: 1%;
-    margin-left: 7%;
+    margin-left: 2%;
 }
-.productos2oi {
-    overflow: hidden;
-    transition: 0.5s;
-    object-fit: cover;
-    float: left;
-    width: 15.6vw;
-    height: 27.6vw;
-    box-shadow: 0 0 7px;
-    margin-top: 76%;
-    margin-bottom: 1%;
-    margin-left: 5%;
-    margin-right: 1%;
-}
-.productos2od {
-    overflow: hidden;
-    transition: 0.5s;
-    object-fit: cover;
-    float: left;
-    width: 15.6vw;
-    height: 27.6vw;
-    box-shadow: 0 0 7px;
-    margin-top: 76%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    margin-right: 5%;
-}
-.productos2:hover {
+.productoso:hover {
     transform: scale(1.05);
 }
+.productosoi:hover {
+    transform: scale(1.05);
+}
+.productosod:hover {
+    transform: scale(1.05);
+}
+/*
+Perro constructor 
+*/
+.perroconstructor{
+    width: 100%;
+    height: 100%;
+}
+.paginaenconstruccion{
+    font-family: 'acme';
+    font-size: 5.9vw;
+    margin-top: -37vw;
+    margin-left: 30.7vw;
+    position: absolute;
+    color: #000000;
+    z-index: 2;
+}
+.paginaenconstruccion2{
+    font-family: 'acme';
+    font-size: 5.9vw;
+    margin-top: -30vw;
+    margin-left: 36.6vw;
+    position: absolute;
+    color: #000000;
+    z-index: 2;
+}
+.paginaenconstruccion3{
+    font-family: 'acme';
+    font-size: 5.9vw;
+    margin-top: -23vw;
+    margin-left: 19vw;
+    position: absolute;
+    color: #000000;
+    z-index: 2;
+}
+/*
+parte de abajo
+*/
+.parteabajo {
+    position: absolute;
+    top: 210vw;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.9;
+}
 
+.parteabajo1 {
+    position: absolute;
+    top: 195vw;
+    width: 23vw;
+    right: 0;
+    z-index: -5;
+    opacity: 0.8;
+}
+/*
+share
+*/
+.share-buttons {
+    position: absolute;
+    width: 1vw;
+    height: 2vw;
+    margin-left: 1.5vw;
+    margin-top: 240vw;
+}
+.share-buttons .share-button {
+    float: left;
+    margin-top: 2vw;
+}
+.share-buttons .share-button:first-child {
+    margin-top: 0;
+}
+.share-buttons .share-button:after {
+    clear: both;
+    display: table;
+}
+.share-button {
+    display: block;
+    position: relative;
+    height: 1.5vw;
+}
+.share-button:hover {
+    cursor: pointer;
+}
+.share-button:hover .share-button-primary {
+    box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+    background: #f1d7b6;
+}
+.share-button:hover .share-button-icon{
+    filter: hue-rotate(0deg) brightness(500%);
+}
+.share-button:hover .share-button-secondary-content {
+    transform: translate3d(0, 0, 0);
+}
+.share-button-primary {
+    position: absolute;
+    background: #ffffff;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+    left: 0;
+    top: 50%;
+    margin-top: -0.8vw;
+}
+.share-button-icon {
+    display: block;
+    color: #fffdfd;
+    position: absolute;
+    width: 2vw;
+    margin-left: 0.2vw;
+    font-size: 1vw;
+    margin-top: 0.2vw;
+}
+.share-button-secondary {
+    overflow: hidden;
+    margin-left: 1vw;
+    height: 2.5vw;
+}
+.share-button-secondary-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1vw;
+    background: #fff;
+    display: block;
+    height: 2.5vw;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    line-height: 2.1961932650073206vw;
+    color: #8d7658;
+    border-radius: 0 15px 15px 0;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 175ms ease;
+}
