@@ -184,12 +184,11 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-left: 5%;
-    margin-right: 1%;
-    margin-top: 60%;
+    margin-left: 3%;
+    margin-top: 10%;
     margin-bottom: 1%;
 }
 .productod{
@@ -197,11 +196,12 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-left: 1%;
-    margin-top: 60%;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 10%;
     margin-bottom: 1%;
 }
 .productoi2{
@@ -209,12 +209,11 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
     margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 1%;
+    margin-left: 3%;
     margin-bottom: 1%;
 }
 .productod2{
@@ -222,11 +221,10 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-right: 5%;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -236,38 +234,36 @@ button {
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-top: 60%;
+    margin-top: 10%;
     margin-bottom: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
 }
 .producto2 {
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
     margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
 }
+
 
 .infop {
     justify-content: center;
     text-align: center;
     font: small-caps 100% serif;
-    font-size: 1.1vw;
+    font-size: 1.9vw;
     color: #30251e;
     font-weight: 100;
     margin: 0.5vw;
-    height: 6vw;
-    width: 14.6vw;
+    height: 8vw;
 }
 
 .precio {
@@ -277,7 +273,7 @@ button {
     vertical-align: top;
     font: 100%/200% serif;
     color: #756155;
-    font-size: 1vw;
+    font-size: 1.7vw;
 }
 .precio2 {
     display: flex;
@@ -286,7 +282,7 @@ button {
     vertical-align: top;
     font: 100%/200% serif;
     color: #ce1010;
-    font-size: 1vw;
+    font-size: 1.7vw;
 }
 
 
@@ -315,17 +311,17 @@ button {
 .tcomprar {
     font-family: 'acme';
     margin-left: 0.5vw;
-    font-size: 0.9vw;
+    font-size: 1.5vw;
     color: #ffffff;
     margin-bottom: 0.7vw;
     margin-top: 0.7vw;
 }
 
 .flecha {
-    height: 2vw;
-    width: 3.5vw;
-    margin-left: 2.5vw;
-    margin-top: 0.3vw;
+    height: 3vw;
+    width: 5.1vw;
+    margin-left: 3.7vw;
+    margin-top: 0.2vw;
     transition: 1s;
 }
 
@@ -335,7 +331,7 @@ button {
 }
 
 .img-producto {
-    height: 14.4vw;
+    height: 20vw;
 }
 /*
 Caregorias
@@ -345,24 +341,25 @@ Caregorias
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-left: 5%;
-    margin-right: 1%;
-    margin-top: 36%;
+    margin-left: 3%;
+    margin-top: 10%;
     margin-bottom: 1%;
+    margin-top: 36%;
 }
 .productosd{
     overflow: hidden;
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
-    margin-left: 1%;
     margin-top: 36%;
+    margin-left: 2%;
+    margin-right: 3%;   
     margin-bottom: 1%;
 }
 .productos {
@@ -370,13 +367,12 @@ Caregorias
     transition: 0.5s;
     object-fit: cover;
     float: left;
-    width: 15.6vw;
-    height: 27.6vw;
+    width: 21.961932650073205vw;
+    height: 38.79941434846266vw;
     box-shadow: 0 0 7px;
     margin-top: 36%;
     margin-bottom: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
 }
 .productos:hover {
     transform: scale(1.05);
@@ -541,16 +537,16 @@ cambio de pagina
     margin-bottom: 1vw;
     background: linear-gradient(#c2ae95, #c2ae95);
     font-family: "Libre Franklin", sans-serif;  
-    padding: 0.3vw;
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
+    padding: 1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
     display: inline-flex;
     position: relative;
 }
 .pagination li a.page-link {
     color: #f1ebe3;
     background: transparent;
-    font-size: 0.9vw;
+    font-size: 1.5vw;
     font-weight: 500;
     line-height: 2vw;
     height: 2vw;
@@ -576,7 +572,7 @@ cambio de pagina
 }
 .pagination li:first-child a.page-link,
 .pagination li:last-child a.page-link {
-    font-size: 0.9vw;
+    font-size: 1.5vw;
     line-height: 2vw;
     width: auto;
     padding: 0 0.2vw;
@@ -587,8 +583,8 @@ cambio de pagina
     background: #e4d7c7;
     width: 100%;
     height: 100%;
-    border: 1px solid #ffffff;
-    border-radius: 0.2vw;
+    border: 0.1vw solid #ffffff;
+    border-radius: 0.3vw;
     transform: scale(0);
     position: absolute;
     left: 0;
@@ -612,40 +608,8 @@ cambio de pagina
     .pagination li {
     display: inline-block;
     vertical-align: top;
-    margin: 0 0 10px;
+    margin: 0 0 0.7320644216691069vw;
     }
-}
-.perroconstructor{
-    width: 100%;
-    height: 100%;
-    margin-top: 200px;
-}
-.paginaenconstruccion{
-    font-family: 'acme';
-    font-size: 80px;
-    margin-top: -500px;
-    margin-left: 420px;
-    position: absolute;
-    color: #000000;
-    z-index: 2;
-}
-.paginaenconstruccion2{
-    font-family: 'acme';
-    font-size: 80px;
-    margin-top: -400px;
-    margin-left: 500px;
-    position: absolute;
-    color: #000000;
-    z-index: 2;
-}
-.paginaenconstruccion3{
-    font-family: 'acme';
-    font-size: 80px;
-    margin-top: -300px;
-    margin-left: 260px;
-    position: absolute;
-    color: #000000;
-    z-index: 2;
 }
 /*
 OFERTAS
