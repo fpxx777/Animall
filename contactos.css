@@ -186,125 +186,113 @@ ul, ol {
     position: absolute;
     width: 50vw;
     margin-top: -85%;
-    margin-left: 50vw;
+    margin-left: 48.5vw;
     font-size: 2.9vw;
 }
 /*formu*/
 .formato {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
-    top: 1246%;
-    left: 35%;
-    width: 32.80%;
-    height: 390%;
+    margin-top: -46.6%;
+    margin-left: 47vw;
+    width: 32.8vw;
+    height: 24vw;
 }
 
 .formato2 {
     position: absolute;
-    top: 1276%;
-    left: 36.5%;
-    width: 29.20%;
+    margin-top: -44.6vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .numero {
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
-    top: 1306%;
-    left: 36.5%;
-    width: 29.75%;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    margin-top: -47vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .numero2 {
     position: absolute;
-    top: 1334%;
-    left: 36.5%;
-    width: 29.20%;
+    margin-top: -45vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .email {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
-    top: 1364%;
-    left: 36.5%;
-    width: 29.75%;
+    margin-top: -41.5vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .email2 {
     position: absolute;
-    top: 1392%;
-    left: 36.5%;
-    width: 29.15%;
+    margin-top: -39.5vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .Mensaje {
     background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
     position: absolute;
-    top: 1422%;
-    left: 36.5%;
-    width: 29.75%;
+    margin-top: -36vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .Mensaje2 {
     position: absolute;
-    width: 29.3%;
-    top: 1450%;
-    right: 33.75%;
+    margin-top: -34vw;
+    margin-left: 47vw;
+    width: 32.8vw;
 }
 
 .Enviar {
 position: absolute;
- width: 29.75%;
- top: 1600%;
- right: 33.75%;
+margin-top: -30vw;
+margin-left: 47vw;
+width: 32.8vw;
 }
 
 /*formu*/
 
 .twitter_logo {
     position: absolute;
-    width: 100px;
-    top: 1125px;
-    left: 0px;
+    width: 22.5vw;
+    margin-top: 68.5%;
+        margin-left: -94vw;
+        height: 22.5vw;
 }
 
 .c {
     position: absolute;
-    width: 25vw;
+    width: 22.5vw;
     margin-top: 44%;
-    margin-left: -95vw;
-    height: 25vw;
+    margin-left: -94vw;
+    height: 22.5vw;
 }
 
 .gmail_logo {
-    position: absolute;
-    width: 15%;
-    top: 1000%;
-    left: -3.99%;
+        position: absolute;
+        width: 33vw;
+        margin-top: 87%;
+        margin-left: -99vw;
+        height: 22.5vw;
 }
-
-.bruh {
-    position: absolute;
-    top: 1000%;
-    left: 1%;
-    width: 15%;
-    font-size: small;
-    padding-left: 6.5%;
-}
-
 .brah {
     position: absolute;
-    top: 1000%;
-    left: 1%;
-    width: 15%;
+    width: 30vw;
+    margin-top: -44%;
+    margin-left: 7.5vw;
+    font-size: 2.9vw;
 }
-
-.broh {
-    position: absolute;
-    top: 400%;
-    left: 1%;
-    width: 15%;
-}
-.borde {
-    
-    
+.bruh {
+    width: 30vw;
+    margin-top: -5%;
+    margin-left: 7.5vw;
+    font-size: 2.9vw;
 }
