@@ -1,0 +1,298 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: vh
+}
+
+
+body {
+    background-color: #F1D7B6;
+}
+
+.logo {
+    width: 10vw;
+    height: 8.5vw;
+}
+.tronco {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: -23%;
+    
+}
+
+.animall {
+    width: 25vw;
+    height: 7vw;
+    z-index: 1;
+    margin-left: 1%;
+}
+.container-logo-otros {
+    position: absolute;
+    width: 10%;
+    top: 0;
+    display: flex;
+    z-index: 1;
+}
+.container-logo-otros2 {
+    position: absolute;
+    margin-top: 4%;
+    display: flex;
+    z-index: 2;
+    left: 30%;
+    margin-left: 10%;
+}
+.lupa {
+    margin-left: -7%;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.lupa:hover {
+    filter: hue-rotate(0deg) brightness(80%);
+}
+.carrito {
+    width: 4.5vw;
+    height: 2.9vw;
+    margin-left: 10%;
+    margin-top: -1%;
+}
+.buscador {
+    color: #F1D7B6;
+    background-color: #A15F2C;
+    border-radius: 0.9vw;
+    border: 0;
+    height: 1.8vw;
+    width: 20vw;
+    font-size: 0.8vw;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+ul, ol {
+    list-style: none;
+}
+
+
+.letrasa {
+    z-index: 1;
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-left: 85%;
+    margin-top: 3%;
+}
+::placeholder {
+    color: #F1D7B6;
+    opacity: 1; 
+}   
+.l {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50%;
+    font-size: 1.1vw;
+
+}
+
+.letrasb {
+    z-index: 2;
+    color: #ffffff;
+    font-family: 'acme';
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-top: 9.4%;
+    width: 30%;
+}
+.letrasb :hover {
+    color: #aaaaaa;
+}
+.l2 {
+    z-index: 2;
+    margin-left: 15%;
+    font-size: 1.5vw;
+}
+.bro{
+    display: flex;
+    list-style: none;
+}
+.frase {
+    z-index: 2;
+    color: #F0E4B2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 10vw;
+    margin-top: 70%;
+    margin-left: 8.7vw;
+    font-size: 0.9vw;
+}
+
+.frase2 {
+    z-index: 2;
+    color: #9D8678;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 9vw;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 18.3vw;
+    font-size: 0.9vw;
+}
+.fondito{
+    width: 100%;
+    height: 500%;
+    margin-left: 0%;
+    margin-top: 11%;
+}
+
+.perro_inteligente {
+    position: absolute;
+    width: 70vw;
+    margin-top:35%;
+    margin-left: -70vw   ;
+    height: 30vw;
+}
+.gatito{
+    position: absolute;
+    width: 100vw;
+    margin-top:5%;
+    margin-left: -130vw   ;
+    height: 50vw;
+}
+
+.sas {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 30vw;
+    margin-top: -90%;
+    margin-left: 60vw;
+    font-size: 2.9vw;
+}
+
+.ses {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 50vw;
+    margin-top: -85%;
+    margin-left: 48.5vw;
+    font-size: 2.9vw;
+}
+/*formu*/
+.formato {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    position: absolute;
+    margin-top: -46.6%;
+    margin-left: 47vw;
+    width: 32.8vw;
+    height: 24vw;
+}
+
+.formato2 {
+    position: absolute;
+    margin-top: -44.6vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.numero {
+    position: absolute;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    margin-top: -47vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.numero2 {
+    position: absolute;
+    margin-top: -45vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.email {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    position: absolute;
+    margin-top: -41.5vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.email2 {
+    position: absolute;
+    margin-top: -39.5vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.Mensaje {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-simple-mesa-madera_23-2147961828.jpg);
+    position: absolute;
+    margin-top: -36vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.Mensaje2 {
+    position: absolute;
+    margin-top: -34vw;
+    margin-left: 47vw;
+    width: 32.8vw;
+}
+
+.Enviar {
+position: absolute;
+margin-top: -30vw;
+margin-left: 47vw;
+width: 32.8vw;
+}
+
+/*formu*/
+
+.twitter_logo {
+    position: absolute;
+    width: 22.5vw;
+    margin-top: 68.5%;
+        margin-left: -94vw;
+        height: 22.5vw;
+}
+
+.c {
+    position: absolute;
+    width: 22.5vw;
+    margin-top: 44%;
+    margin-left: -94vw;
+    height: 22.5vw;
+}
+
+.gmail_logo {
+        position: absolute;
+        width: 33vw;
+        margin-top: 87%;
+        margin-left: -99vw;
+        height: 22.5vw;
+}
+.brah {
+    position: absolute;
+    width: 30vw;
+    margin-top: -44%;
+    margin-left: 7.5vw;
+    font-size: 2.9vw;
+}
+.bruh {
+    width: 30vw;
+    margin-top: -5%;
+    margin-left: 7.5vw;
+    font-size: 2.9vw;
+}
