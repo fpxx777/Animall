@@ -1,70 +1,328 @@
 <!DOCTYPE html>
 <style>
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #F1D7B6;
-    }
+nav {
+    width: vh;
+}
 
+body {
+    background-color: #F1D7B6;
+    cursor:url("MenuPrincipalIGM/animall.png"), auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+ul, ol {
+    list-style: none;
+}
+/*
+Parte de arriba
+*/
+.tronco {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-top: -23%;
+}
+.animall {
+    width: 25vw;
+    height: 7vw;
+    z-index: 1;
+    margin-left: 1%;
+}
+
+.container-logo-otros {
+    position: absolute;
+    width: 10%;
+    top: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.container-logo-otros2 {
+    position: absolute;
+    margin-top: 4%;
+    display: flex;
+    z-index: 2;
+    left: 30%;
+    margin-left: 10%;
+}
+.logo {
+    width: 10vw;
+    height: 8.5vw;
+}
+
+.buscador {
+    color: #F1D7B6;
+    background-color: #A15F2C;
+    border-radius: 0.9vw;
+    border: 0;
+    height: 1.8vw;
+    width: 20vw;
+    font-size: 0.8vw;
+}
+
+.lupa {
+    margin-left: -7%;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.lupa:hover {
+    filter: hue-rotate(0deg) brightness(80%);
+}
+
+.carrito {
+    width: 4.5vw;
+    height: 2.9vw;
+    margin-left: 10%;
+    margin-top: -1%;
+}
+
+.l {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 50%;
+    font-size: 1.1vw;
+}
+
+.l2 {
+    z-index: 2;
+    margin-left: 15%;
+    font-size: 1.5vw;
+}
+
+
+.letrasa {
+    z-index: 1;
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-left: 85%;
+    margin-top: 3%;
+}
+::placeholder {
+    color: #F1D7B6;
+    opacity: 1; 
+}
+
+.letrasb {
+    z-index: 2;
+    color: #ffffff;
+    font-family: 'acme';
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-top: 9.4%;
+    width: 30%;
+}
+.letrasb :hover {
+    color: #aaaaaa;
+}
+
+.frase {
+    z-index: 2;
+    color: #F0E4B2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 10vw;
+    margin-top: 70%;
+    margin-left: 8.7vw;
+    font-size: 0.9vw;
+}
+
+.frase2 {
+    z-index: 2;
+    color: #9D8678;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 9vw;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 18.3vw;
+    font-size: 0.9vw;
+}
+@font-face {
+    font-family: 'acme';
+    src: url('Acme-Regular.ttf');
+}
     h2 {
         color: #F1D7B6;
+        font-size: 2vw;
+        font-family: 'acme';
     }
 
     label {
         color: #F1D7B6;
+        font-size: 1.2vw;
+        font-family: 'acme';
     }
+input{
+    color: #F1D7B6;
+    font-size: 1vw;
+}
+button{
+    font-size: 1.2vw;
+    font-family: 'acme';
+}
+.parteabajo {
+    position: absolute;
+    top: 50vw;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.9;
+}
 
+.parteabajo1 {
+    position: absolute;
+    top: 35vw;
+    width: 23vw;
+    right: 0;
+    z-index: -5;
+    opacity: 0.8;
+}
+/*
+share
+*/
+.share-buttons {
+    position: absolute;
+    width: 1vw;
+    height: 2vw;
+    margin-left: 1.5vw;
+    margin-top: 20vw;
+}
+.share-buttons .share-button {
+    float: left;
+    margin-top: 2vw;
+}
+.share-buttons .share-button:first-child {
+    margin-top: 0;
+}
+.share-buttons .share-button:after {
+    clear: both;
+    display: table;
+}
+.share-button {
+    display: block;
+    position: relative;
+    height: 1.5vw;
+}
+.share-button:hover {
+    cursor: pointer;
+}
+.share-button:hover .share-button-primary {
+    box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+    background: #f1d7b6;
+}
+.share-button:hover .share-button-icon{
+    filter: hue-rotate(0deg) brightness(500%);
+}
+.share-button:hover .share-button-secondary-content {
+    transform: translate3d(0, 0, 0);
+}
+.share-button-primary {
+    position: absolute;
+    background: #ffffff;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+    left: 0;
+    top: 50%;
+    margin-top: -0.8vw;
+}
+.share-button-icon {
+    display: block;
+    color: #fffdfd;
+    position: absolute;
+    width: 2vw;
+    margin-left: 0.2vw;
+    font-size: 1vw;
+    margin-top: 0.2vw;
+}
+.share-button-secondary {
+    overflow: hidden;
+    margin-left: 1vw;
+    height: 2.5vw;
+}
+.share-button-secondary-content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1vw;
+    background: #fff;
+    display: block;
+    height: 2.5vw;
+    text-align: left;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    line-height: 2.1961932650073206vw;
+    color: #8d7658;
+    border-radius: 0 1vw 1vw 0;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 175ms ease;
+}
     .container {
         margin-left: 40%;
         margin-top: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 40vw;
     }
 
     .login-form {
         background-color: #977c5b;
-        border-radius: 10px;
-        padding: 40px;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 1vw;
+        padding: 3vw;
+        box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
     }
 
     .form-control {
-        margin-bottom: 20px;
+        margin-bottom: 2vw;
     }
 
     .form-control label {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 1vw;
     }
 
     .form-control input[type="text"],
     .form-control input[type="password"],
     .form-control input[type="checkbox"] {
         border: none;
-        background-color: #f2f2f2;
-        padding: 10px;
-        border-radius: 5px;
+        background-color: #2b1616;
+        padding: 1vw;
+        border-radius: 0.5vw;
         width: 100%;
     }
 
     .form-control input[type="text"]:focus,
     .form-control input[type="password"]:focus {
         outline: none;
-        background-color: #e6e6e6;
+        background-color: #2b1616;
     }
 
     .form-control input[type="checkbox"] {
-        margin-right: 10px;
+        margin-right: 1vw;
         width: auto;
     }
-
+    #remember-me{
+        cursor: pointer;
+        width: 1vw;
+        height: 1vw;
+        border-radius: 1vw;
+    }
     #label-remember{
         display: inline;
     }
@@ -73,14 +331,13 @@
         background-color: #4CAF50;
         color: #fff;
         border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
+        border-radius: 0.5vw;
+        padding: 0.8vw 1.5vw;
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
-
     .btn:hover {
-        background-color: #3e8e41;
+        background-color: #28772a;
     }
 
     .image-container {
@@ -89,7 +346,7 @@
         background-image: url("cat-and-dog.jpg");
         background-size: cover;
         background-position: center;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 1vw 1vw 0;
     }
 
     .image-container img {
@@ -100,7 +357,7 @@
 
 <head>
     <title>Inicio de sesión</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
 </head>
 <header>
     <img class="tronco" src="MenuPrincipalIGM/tronco.png">
@@ -146,13 +403,47 @@
                 <input type="password" id="password" name="password" placeholder="Introduce tu contraseña">
             </div>
             <div class="form-control">
-                <input type="checkbox" id="remember-me" name="remember-me">
+                <input type="checkbox" class="mycheck" id="remember-me" name="remember-me">
                 <label id="label-remember" for="remember-me">Recuérdame en el dispositivo</label>
             </div>
             <button onclick="location.href='favoritos.html'" type="button" class="btn">Iniciar sesión</button>
         </form>
         <div class="image-container">
             <img src="cat-and-dog.jpg" alt="Imagen de un gato y un perro">
+        </div>
+    </div>
+    <img class="parteabajo1" src="MenuPrincipalIGM/parteabajo1.png">
+    <img class="parteabajo" src="MenuPrincipalIGM/parteabajo.png">
+    <div class="share-buttons">
+        <div class="share-button">
+            <div class="share-button-secondary">
+                <div class="share-button-secondary-content">
+                    animall.aml7@gmail.com
+                </div>
+            </div>
+            <div class="share-button-primary">
+                <img class="share-button-icon" src="MenuPrincipalIGM/gmail.png">
+            </div>
+        </div>
+        <div class="share-button">
+            <div class="share-button-secondary">
+                <div class="share-button-secondary-content">
+                    @animall_aml
+                </div>
+            </div>
+            <div class="share-button-primary">
+                <img class="share-button-icon" src="MenuPrincipalIGM/twitter.png">
+            </div>
+        </div>
+        <div class="share-button">
+            <div class="share-button-secondary">
+                <div class="share-button-secondary-content">
+                    @animall_aml
+                </div>
+            </div>
+            <div class="share-button-primary">
+                <img class="share-button-icon" src="MenuPrincipalIGM/ig.png">
+            </div>
         </div>
     </div>
 </body>

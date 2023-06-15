@@ -335,21 +335,26 @@ button {
 /* Compras */
 .oferta {
     color: #556b2f;
-    font-size: x-large;
+    font-size: 1.7vw;
     font-family: 'acme';
+}
+.Inform{
+    font-size: 2.5vw;
 }
 
 .s1 {
     color: #604a33;
     text-decoration: line-through;
+    font-size: 1.5vw;
 }
 
 .s2 {
     color: #556b2f;  
+    font-size: 2vw;
 }
 
 #img-producto {
-    margin-left: 60px;
+    margin-left: 4.4vw;
     align-self: self-start;
     margin-top: 22vw;
     width: 30vw;
@@ -369,6 +374,9 @@ button {
     grid-column-gap: 2vw;
     margin-top: 0%;
 }
+.amity img{
+    width: 60vw;
+}
 
 
 .div1 {
@@ -383,6 +391,7 @@ button {
 
 .footer1 {
     grid-template-columns: (4, 1fr);
+    font-size: 1.2vw;
 }
 
 .buy-btn {
@@ -442,9 +451,10 @@ button {
     position: absolute;
     background-color: #604a33;
     color: white;
-    margin-top: 43%;
+    margin-top: 50%;
     margin-left: 0%;
     display: flex;
+    font-size: 1.3vw;
 
 }
 
@@ -544,12 +554,31 @@ button {
     display: inline-block;
     padding: 0.7vw;
     width: 4vw;
+    height: 3vw;
     text-align: center;
     border-color: #F1D7B6;
+    font-size: 1.2vw;
+}
+.buy-btn-arrow img{
+    height: 3vw;
+    width: 4vw;
+}
+.ip8{
+    font-size: 1vw;
+}
+.ip7{
+    font-size: 1vw;
+}
+.cantidad{
+    font-size: 1vw;
+}
+input{
+    font-size: 1vw;
 }
 .ip {
     width: 54vw;
     height: 10vw;
+    font-size: 1.2vw;
 }
 .ip2 {
     padding: 1vw 2vw 2vw 6vw;
@@ -558,14 +587,17 @@ button {
 }
 .i {
     padding-left: 6vw;
+    font-size: 2vw;
 }
 .descripcion {
     text-align: center;
     padding: 1vw 2vw 1vw 0vw;
+    font-size: 3vw;
 }
 .id3 {
     padding-left: 2vw;
     margin: 1vw 1vw 1vw 1vw;
+    font-size: 1vw;
 }
 .amity {
     padding: 1vw 1vw 1vw 3vw;
@@ -616,7 +648,7 @@ button {
     position: absolute;
     background-color: #604a33;
     color: white;
-    margin-top: 70vw;
+    margin-top: 50vw;
     display: flex;
 
 }
