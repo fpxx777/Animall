@@ -406,7 +406,7 @@ button {
 
 .col-md-4 {
     text-align: center;
-    margin-left: 1vw;
+    margin-left: 8vw;
 }
 
 .row {
@@ -417,7 +417,10 @@ button {
 .list-unstyled {
     text-align: start;
 }
-
+.info3 {
+    height: 0vw;
+    width: 16.6vw;
+}
 .info {
     margin-left: -25vw;
 }
@@ -489,11 +492,11 @@ button {
     padding: 1vw 2vw 1vw 0vw;
 }
 .id3 {
-    padding-left: 2vw;
+    padding-left: 6vw;
     margin: 1vw 1vw 1vw 1vw;
 }
 .amity {
-    padding: 1vw 1vw 1vw 3vw;
+    padding: 1vw 1vw 1vw 6vw;
 }
 
 #animall {
@@ -514,6 +517,7 @@ button {
     font-size: 0.8vw;
     height: 62px;
 }
+
 .producto1 {
     overflow: hidden;
     transition: 0.5s;
@@ -522,15 +526,15 @@ button {
     width: 22vw;
     height: 38vw;
     box-shadow: 0 0 1vw;
-    margin: 1vw;
+    margin: 1.5vw;
     margin-block-end: 20vw;
     margin-top:30vw;
 }
 
 .ip7 {
-    padding: 2vw 2vw 0vw 8vw;
+    padding: 2vw 2vw 1vw 6vw;
     width: 90vw;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .ip8 {
@@ -541,30 +545,30 @@ button {
     position: absolute;
     background-color: #604a33;
     color: white;
-    margin-top: 70vw;
+    margin-top: 73vw;
     display: flex;
 
 }
 
 .footer1 h4 {
     color: #fff;
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
 }
 
 .footer1 p {
     color: #ccc;
-    line-height: 1.5;
+    line-height: 1.7vw;
 }
 
 .footer1 ul {
-    margin: 0;
-    padding: 0;
+    margin: 0vw;
+    padding: 0vw;
     list-style: none;
 }
 
 .footer1 ul li {
     margin-bottom: 2vw;
-    margin-left: 37vw;
+    margin-left: 28vw;
 }
 
 .footer1 ul li a {
